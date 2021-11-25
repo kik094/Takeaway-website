@@ -1,0 +1,134 @@
+.first-section-slope {
+    position: absolute;
+    width: 100%;
+    height: 9vw;
+    margin-top: 300px;
+    top: -24px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 100%, 100% 0, 100% 0);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+    background: #f86600;
+}
+
+.first-section {
+    color: white;
+    height: 164px;
+    width: 100%;
+    background-color: #f86600;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1 {
+    margin-top: -69px;
+    font-weight: 800;
+}
+
+.first-section h2 {
+    margin-top: 9px;
+    font-weight: 500;
+}
+
+.inputw-img fa {
+    color: red;
+}
+
+.inputw-img {
+    display: flex;
+    width: 520px;
+    align-items: center;
+    border: 1px solid #125fca;
+    border-radius: 0 2px 2px 0;
+}
+
+#input-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    color: lightgrey;
+    padding: 12px;
+    width: 20px;
+}
+
+.first-section input {
+    min-width: 520px;
+    height: 100%;
+}
+
+.first-section-search {
+    display: flex;
+    height: 40px;
+    margin-top: 28px;
+}
+
+.first-section button {
+    font-weight: 600;
+    background-color: #125fca;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #125fca;
+    border-radius: 0 2px 2px 0;
+    padding: 0 32px;
+    height: 100%;
+}
+
+.first-section button:hover {
+    background-color: #0953bd;
+    border: 1px solid #0953bd;
+}
+
+.background-section {
+    background-image: url("../images/sushi_light_desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+}
+
+@media only screen and (max-width:1000px) {
+    .first-section h1 {
+        font-size: 60px;
+    }
+    .first-section h2 {
+        font-size: 20px;
+    }
+    .inputw-img {
+        width: 430px;
+    }
+    .first-section input {
+        min-width: 400px;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .first-section h1 {
+        font-size: 40px;
+    }
+    .first-section h2 {
+        font-size: 16px;
+    }
+    .inputw-img {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .first-section input {
+        min-width: 100px;
+    }
+    .inputw-img {
+        max-width: 180px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .first-section h1 {
+        font-size: 30px;
+    }
+    .first-section h2 {
+        font-size: 15px;
+    }
+}

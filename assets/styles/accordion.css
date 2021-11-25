@@ -1,0 +1,50 @@
+.accordion-menu {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.accordion {
+    display: none;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: center;
+    height: 24px;
+    cursor: pointer;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    background-color: #0a3847;
+    color: white;
+    cursor: pointer;
+}
+
+.panel {
+    background-color: #0a3847;
+    display: none;
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+}
+
+.panel ul li {
+    margin: 25px 0;
+    list-style: none;
+}
+
+.panel ul li a {
+    text-decoration: none;
+}
+
+.accordion button {
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.accordion i {
+    font-size: 30px;
+}

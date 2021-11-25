@@ -1,0 +1,80 @@
+body{
+    height: 1000px;
+}
+header{
+    height: 72px;
+    background-color: #f86600;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 24px!important;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.header-logo{
+    height: 28px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.menu-flag{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-flag img{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+}
+.menu-burger{
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.top-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 52px;
+    bottom: 20px;
+    position: fixed;
+    right: 12px;
+    border: 0;
+    opacity: .5;
+    z-index: 99;
+    transition: all .5s ease-in-out;
+    border-radius: 3px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+.top-arrow a{
+    color: white;
+}
+.top-arrow:hover{
+    opacity: 1;
+}
+.top-arrow i{
+    font-size: 30px;
+}
+
+@media only screen and (max-width:980px){
+    .menu-flag{
+        display:none;
+    }
+ }

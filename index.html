@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeaway.com | Food delivery in Bulgaria (#1 in BG with over 700 restaurants)</title>
+    <link rel="icon" href="assets/images/takeaway icon.svg">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="assets/styles/first-section.css">
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/services-section.css">
+    <link rel="stylesheet" href="assets/styles/app-section.css">
+    <link rel="stylesheet" href="assets/styles/benefits-section.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/swiper.css">
+    <link rel="stylesheet" href="assets/styles/accordion.css">
+    <link rel="stylesheet" href="assets/styles/modal.css">
+    <link rel="stylesheet" href="assets/styles/modal-countries.css">
+
+    <!-- fonts, fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- Navbar -->
+        <div class="header-logo" id="home">
+            <a href="#"><img src="assets/images/takeaway logo.svg" alt=""></a>
+        </div>
+        <div class="header-menu">
+            <div class="menu-flag">
+                <img src="assets/images/bg flag.png" alt="" id="menu-flag">
+            </div>
+            <div class="menu-burger" id="menu-burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+    <a href="#home">
+        <div class="top-arrow"><i class="fas fa-angle-up"></i></div>
+    </a>
+
+    <!-- Headings, search Sushi section -->
+    <div class="first-section">
+        <h1>Time to order food</h1>
+        <h2>Find restaurants in your area</h2>
+        <div class="first-section-search">
+            <div class="inputw-img">
+                <div id="input-img"><i class="fas fa-map-marker-alt"></i></div>
+                <input type="text" placeholder="Address, i.e. 111 Bulgaria blvd. Embassy Suites A, fl.7">
+
+            </div>
+            <button>Show</button>
+        </div>
+    </div>
+    <div class="first-section-slope"></div>
+    <div class="background-section"></div>
+
+    <!-- Services -->
+    <div class="services-section">
+        <h3>How it works</h3>
+        <h2>Easy as that!</h4>
+            <div class="services-cards">
+                <div class="services-card">
+                    <span><i class="fas fa-map-marker-alt menu-icons"></i></span>
+                    <span class="card-arrow"><i class="fas fa-angle-right"></i></span>
+                    <div class="span-n">1.</div>
+                    <h4>Enter your location</h4>
+                    <p>Enter your street address or let us find your location.</p>
+                </div>
+                <div class="services-card">
+                    <span><i class="fas fa-hamburger menu-icons"></i></span>
+                    <span class="card-arrow"><i class="fas fa-angle-right"></i></span>
+                    <div class="span-n">2.</div>
+                    <h4>Choose your restaurant and food</h4>
+                    <p>What do you fancy? Browse through countless menus and reviews.</p>
+                </div>
+                <div class="services-card">
+                    <span><i class="fas fa-bicycle menu-icons"></i></span>
+                    <div class="span-n">3.</div>
+                    <h4>Pay and get your food delivered</h4>
+                    <p>Pay cash or online with Creditcard. Bon appetit!</p>
+                </div>
+            </div>
+            <!-- <div class="control-arrows">
+                <div class="left-arrow"><i class="fas fa-chevron-left"></i></div>
+                <div class="right-arrow"><i class="fas fa-chevron-right"></i></div>
+            </div> -->
+            <!-- <div class="control-dots">
+                <span class="control-dot control-dot-selected"></span>
+                <span class="control-dot"></span>
+                <span class="control-dot"></span>
+            </div> -->
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <span><i class="fas fa-map-marker-alt menu-icons"></i></span>
+                        <div class="span-a">1.</div>
+                        <h4>Enter your location</h4>
+                        <p>Enter your street address or let us find your location.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <span><i class="fas fa-hamburger menu-icons"></i></span>
+                        <div class="span-a">2.</div>
+                        <h4>Choose your restaurant and food</h4>
+                        <p>What do you fancy? Browse through countless menus and reviews.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <span><i class="fas fa-bicycle menu-icons"></i></span>
+                        <div class="span-a">3.</div>
+                        <h4>Pay and get your food delivered</h4>
+                        <p>Pay cash or online with Creditcard. Bon appetit!</p>
+                    </div>
+
+                </div>
+                <!-- swiper controls -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+    </div>
+
+
+
+
+    <!-- APP Section -->
+    <div class="app-section">
+        <div class="app-wrapper">
+            <div class="app-headings">
+                <h3 id="first">Download the app</h3>
+                <h3 id="second">Click, sit back and enjoy.</h3>
+                <div class="headings-img">
+                    <div class="app-img-wrapper">
+                        <a href="https://play.google.com/store/apps/details?id=com.bgmenu.android&referrer=adjust_reftag%3DcGgSu08U2Dpvv%26utm_source%3Dbg%257Candroid%257Cmainsite%26utm_campaign%3Dhomepage-button%26utm_medium%3Dsite">
+                            <img src="assets/images/android.png" alt=""></a>
+                    </div>
+                    <div class="app-img-wrapper">
+                        <a href="https://apps.apple.com/app/id962261535?mt=8"><img src="assets/images/ios.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="app-phone">
+                <img src="assets/images/apps_157.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bonuses, Guarantee, Benefits section -->
+    <div class="benefits-section">
+        <h3>Takeaway.com</h3>
+        <h2>Your time.</h2>
+
+
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide swiper-slide-benefits">
+                    <div class="benefits-card-swiper">
+                        <div class="icon-wrapper">
+                            <span><i class="fas fa-crown"></i></span>
+                        </div>
+                        <h5>Your Bonus</h5>
+                        <div class="tick-text">
+                            <span><i class="fas fa-check"></i></span>
+                            <p>Excellent service for free</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide swiper-slide-benefits">
+                    <div class="benefits-card-swiper">
+                        <div class="icon-wrapper">
+                            <span><i class="fas fa-crown"></i></span>
+                        </div>
+                        <h5>Your Guarantee</h5>
+                        <div class="tick-text">
+                            <span><i class="fas fa-check"></i></span>
+                            <p>Excellent service for free</p>
+                        </div>
+                        <div class="tick-text">
+                            <span><i class="fas fa-check"></i></span>
+                            <p>Authentic user reviews</p>
+                        </div>
+                        <div class="tick-text">
+                            <span><i class="fas fa-check"></i></span>
+                            <p> <a href="">Price guarantee: </a> you pay just as much for your delivered meal, as you would pay when ordering directly from the restaurant
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide swiper-slide-benefits">
+                    <div class="benefits-card-swiper">
+                        <div class="icon-wrapper">
+                            <span><i class="fas fa-check-circle"></i></span>
+                        </div>
+                        <h5>Your benefits</h5>
+                        <div class="tick-text">
+                            <span><i class="fas fa-check"></i></span>
+                            <p>700+ partner restaurants to choose from</p>
+                        </div>
+                        <div class="tick-text">
+                            <span><i class="fas fa-check"></i></span>
+                            <p>Pay cash or online</p>
+                        </div>
+                        <div class="tick-text">
+                            <span><i class="fas fa-check"></i></span>
+                            <p>Order anytime, anywhere, on any device</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- swiper controls -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+
+        <div class="benefits-cards">
+            <div class="benefits-card first">
+                <div class="icon-wrapper">
+                    <span> <i class="fas fa-shopping-bag"></i></span>
+                </div>
+                <h5>Your Bonus</h5>
+                <div class="tick-text">
+                    <span><i class="fas fa-check"></i></span>
+                    <p>Receive stamps, promotions, discounts, news and more, via our newsletters and social channels</p>
+                </div>
+
+            </div>
+            <div class="benefits-card middle second">
+                <div class="icon-wrapper">
+                    <span><i class="fas fa-crown"></i></span>
+                </div>
+                <h5>Your Guarantee</h5>
+                <div class="tick-text">
+                    <span><i class="fas fa-check"></i></span>
+                    <p>Excellent service for free</p>
+                </div>
+                <div class="tick-text">
+                    <span><i class="fas fa-check"></i></span>
+                    <p>Authentic user reviews</p>
+                </div>
+                <div class="tick-text">
+                    <span><i class="fas fa-check"></i></span>
+                    <p> <a href="">Price guarantee: </a> you pay just as much for your delivered meal, as you would pay when ordering directly from the restaurant
+                    </p>
+                </div>
+            </div>
+            <div class="benefits-card third">
+                <div class="icon-wrapper">
+                    <span><i class="fas fa-check-circle"></i></span>
+                </div>
+                <h5>Your benefits</h5>
+                <div class="tick-text">
+                    <span><i class="fas fa-check"></i></span>
+                    <p>700+ partner restaurants to choose from</p>
+                </div>
+                <div class="tick-text">
+                    <span><i class="fas fa-check"></i></span>
+                    <p>Pay cash or online</p>
+                </div>
+                <div class="tick-text">
+                    <span><i class="fas fa-check"></i></span>
+                    <p>Order anytime, anywhere, on any device</p>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- <div class="control-arrows">
+            <div class="left-arrow"><i class="fas fa-chevron-left"></i></div>
+            <div class="right-arrow"><i class="fas fa-chevron-right"></i></div>
+        </div>
+        <div class="control-dots">
+            <span class="control-dot control-dot-selected"></span>
+            <span class="control-dot"></span>
+            <span class="control-dot"></span>
+        </div> -->
+    </div>
+    <!-- Footer w/ links -->
+    <footer>
+        <div class="footer-img-wrap">
+            <img src="assets/images/takeaway logo.svg" alt="">
+        </div>
+
+        <div class="footer-links-social footer-links-social-tablet">
+            <h5>Follow us</h5>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footers-cards">
+            <div class="footer-card">
+
+
+                <h5>Takeaway.com</h5>
+                <ul>
+                    <li><a href="#">Customer service</a></li>
+                    <li><a href="#">Recommend a restaurant</a></li>
+                    <li><a href="#">Sign up a restaurant</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">StampCard</a></li>
+                    <li><a href="#">Privacy statement</a></li>
+                    <li><a href="#">Colophon</a></li>
+                    <li><a href="#">Cookie statement</a></li>
+                </ul>
+                <div class="footer-links-social">
+                    <h5>Follow us</h5>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-card">
+                <h5>International</h5>
+                <ul>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Takeaway.com - Bulgaria</a></li>
+                    <li><a href="#">10bis</a></li>
+                    <li><a href="#">Just-Eat.ch</a></li>
+                    <li><a href="#">Just-Eat.dk</a></li>
+                    <li><a href="#">Just-Eat.es</a></li>
+                    <li><a href="#">Just-Eat.fr</a></li>
+                    <li><a href="#">Just-Eat.ie</a></li>
+                    <li><a href="#">Just-Eat.it</a></li>
+                    <li><a href="#">Just-Eat.no</a></li>
+                    <li><a href="#">Just-Eat.uk</a></li>
+                    <li><a href="#">Lieferando.at</a></li>
+                    <li><a href="#">Lieferando.de</a></li>
+                    <li><a href="#">Menulog.au</a></li>
+                    <li><a href="#">Menulog.nz</a></li>
+                    <li><a href="#">Pyszne.pl</a></li>
+                    <li><a href="#">Skip the Dishes</a></li>
+                    <li><a href="#">Takeaway.com - Белгия</a></li>
+                    <li><a href="#">Takeaway.com - Румъния</a></li>
+                    <li><a href="#">Takeaway.com - Португалия</a></li>
+                    <li><a href="#">Takeaway.com - Люксембург</a></li>
+                    <li><a href="#">Thuisbezorgd.nl</a></li>
+                </ul>
+                <h5>Food</h5>
+                <ul>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Pizza</a></li>
+                    <li><a href="#">Mediterranean</a></li>
+                    <li><a href="#">Grill</a></li>
+                    <li><a href="#">Asian</a></li>
+                    <li><a href="#">Other</a></li>
+                    <li><a href="#">Lunch / breakfast</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Drinks Ice cream</a></li>
+                    <li><a href="#">More food order..</a></li>
+                </ul>
+            </div>
+            <div class="footer-card">
+                <h5>Provinces</h5>
+                <ul>
+                    <li><a href="#">Blagoevgrad</a></li>
+                    <li><a href="#">Burgas</a></li>
+                    <li><a href="#">Dobrich</a></li>
+                    <li><a href="#">Gabrovo</a></li>
+                    <li><a href="#">Haskovo</a></li>
+                    <li><a href="#" ">Kardzhali</a></li>
+                    <li><a href=" # "">Kyustendil</a>
+                    </li>
+                    <li><a href="#">Lovech</a></li>
+                    <li><a href="#">Montana</a></li>
+                    <li><a href="#">Pazardzhik</a></li>
+                    <li><a href="#">Pernik</a></li>
+                    <li><a href="#">Pleven</a></li>
+                    <li><a href="#">Plovdiv</a></li>
+                    <li><a href="#">Razgrad</a></li>
+                    <li><a href="#">Ruse</a></li>
+                    <li><a href="#">Shumen</a></li>
+                    <li><a href="#">Silistra</a></li>
+                    <li><a href="#">Sliven</a></li>
+                    <li><a href="#">Smolyan</a></li>
+                    <li>
+                        <a href="#"></a>Sofia City</a>
+                    </li>
+                    <li><a href="#">Sofia province</a></li>
+                    <li><a href="#">Stara Zagora</a></li>
+                    <li><a href="#">Targovishte</a></li>
+                    <li><a href="#">Varna</a></li>
+                    <li><a href="#">Veliko Tarnovo</a></li>
+                    <li><a href="#">Vidin</a></li>
+                    <li><a href="#">Vratsa</a></li>
+                    <li><a href="#">Yambol</a></li>
+                </ul>
+            </div>
+            <div class="footer-card">
+                <h5>New delivery restaurants</h5>
+                <ul>
+                    <li><a href="#">Anne Marie Pizzeria|Пицар.., София</a></li>
+                    <li><a href="#">Draft Beer Point, София</a></li>
+                    <li><a href="#">Sushi Market|Суши Маркет, София</a></li>
+                    <li><a href="#">AM - AM Food For Home |Хр.., София</a></li>
+                    <li><a href="#">Street Food Deli|Стрийт Ф.., Пловдив</a></li>
+                    <li><a href="#">Prego Pizza & Wine|Прего, Пловдив</a></li>
+                    <li><a href="#">Hesburger|Хесбургер, София</a></li>
+                    <li><a href="#">Bendida Pizza & BBQ|Пица .., Стара Загора</a></li>
+                    <li><a href="#">Mamin Kolio Tavern|Механа.., София</a></li>
+                    <li><a href="#">Скара на Корем, София</a></li>
+                </ul>
+
+
+                <h5>Partners</h5>
+                <ul>
+                    <li><a href="#">Chains</a></li>
+                    <li><a href="#">Takeaway Pay (B2B)</a></li>
+                </ul>
+            </div>
+
+
+            <div class="accordion-menu">
+                <div class="accordion"> <button>Takeaway.com</button> <i class="fas fa-angle-down"></i></div>
+                <div class="panel">
+                    <ul>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Recommend a restaurant</a></li>
+                        <li><a href="#">Sign up a restaurant</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">StampCard</a></li>
+                        <li><a href="#">Privacy statement</a></li>
+                        <li><a href="#">Colophon</a></li>
+                        <li><a href="#">Cookie statement</a></li>
+                    </ul>
+                </div>
+
+                <div class="accordion"> <button>International</button> <i class="fas fa-angle-down"></i></div>
+                <div class="panel">
+                    <ul>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Takeaway.com - Bulgaria</a></li>
+                        <li><a href="#">10bis</a></li>
+                        <li><a href="#">Just-Eat.ch</a></li>
+                        <li><a href="#">Just-Eat.dk</a></li>
+                        <li><a href="#">Just-Eat.es</a></li>
+                        <li><a href="#">Just-Eat.fr</a></li>
+                        <li><a href="#">Just-Eat.ie</a></li>
+                        <li><a href="#">Just-Eat.it</a></li>
+                        <li><a href="#">Just-Eat.no</a></li>
+                        <li><a href="#">Just-Eat.uk</a></li>
+                        <li><a href="#">Lieferando.at</a></li>
+                        <li><a href="#">Lieferando.de</a></li>
+                        <li><a href="#">Menulog.au</a></li>
+                        <li><a href="#">Menulog.nz</a></li>
+                        <li><a href="#">Pyszne.pl</a></li>
+                        <li><a href="#">Skip the Dishes</a></li>
+                        <li><a href="#">Takeaway.com - Белгия</a></li>
+                        <li><a href="#">Takeaway.com - Румъния</a></li>
+                        <li><a href="#">Takeaway.com - Португалия</a></li>
+                        <li><a href="#">Takeaway.com - Люксембург</a></li>
+                        <li><a href="#">Thuisbezorgd.nl</a></li>
+                    </ul>
+                </div>
+
+                <div class="accordion"> <button>Food</button> <i class="fas fa-angle-down"></i></div>
+                <div class="panel">
+                    <ul>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Pizza</a></li>
+                        <li><a href="#">Mediterranean</a></li>
+                        <li><a href="#">Grill</a></li>
+                        <li><a href="#">Asian</a></li>
+                        <li><a href="#">Other</a></li>
+                        <li><a href="#">Lunch / breakfast</a></li>
+                        <li><a href="#">International</a></li>
+                        <li><a href="#">Drinks Ice cream</a></li>
+                        <li><a href="#">More food order..</a></li>
+                    </ul>
+                </div>
+
+                <div class="accordion"> <button>Provinces</button> <i class="fas fa-angle-down"></i></div>
+                <div class="panel">
+                    <ul>
+                        <li><a href="#">Blagoevgrad</a></li>
+                        <li><a href="#">Burgas</a></li>
+                        <li><a href="#">Dobrich</a></li>
+                        <li><a href="#">Gabrovo</a></li>
+                        <li><a href="#">Haskovo</a></li>
+                        <li><a href="#" ">Kardzhali</a></li>
+                        <li><a href=" # "">Kyustendil</a>
+                        </li>
+                        <li><a href="#">Lovech</a></li>
+                        <li><a href="#">Montana</a></li>
+                        <li><a href="#">Pazardzhik</a></li>
+                        <li><a href="#">Pernik</a></li>
+                        <li><a href="#">Pleven</a></li>
+                        <li><a href="#">Plovdiv</a></li>
+                        <li><a href="#">Razgrad</a></li>
+                        <li><a href="#">Ruse</a></li>
+                        <li><a href="#">Shumen</a></li>
+                        <li><a href="#">Silistra</a></li>
+                        <li><a href="#">Sliven</a></li>
+                        <li><a href="#">Smolyan</a></li>
+                        <li>
+                            <a href="#"></a>Sofia City</a>
+                        </li>
+                        <li><a href="#">Sofia province</a></li>
+                        <li><a href="#">Stara Zagora</a></li>
+                        <li><a href="#">Targovishte</a></li>
+                        <li><a href="#">Varna</a></li>
+                        <li><a href="#">Veliko Tarnovo</a></li>
+                        <li><a href="#">Vidin</a></li>
+                        <li><a href="#">Vratsa</a></li>
+                        <li><a href="#">Yambol</a></li>
+                    </ul>
+                </div>
+                <div class="accordion"> <button>New delivery restaurants</button> <i class="fas fa-angle-down"></i></div>
+                <div class="panel">
+                    <ul>
+                        <li><a href="#">Anne Marie Pizzeria|Пицар.., София</a></li>
+                        <li><a href="#">Draft Beer Point, София</a></li>
+                        <li><a href="#">Sushi Market|Суши Маркет, София</a></li>
+                        <li><a href="#">AM - AM Food For Home |Хр.., София</a></li>
+                        <li><a href="#">Street Food Deli|Стрийт Ф.., Пловдив</a></li>
+                        <li><a href="#">Prego Pizza & Wine|Прего, Пловдив</a></li>
+                        <li><a href="#">Hesburger|Хесбургер, София</a></li>
+                        <li><a href="#">Bendida Pizza & BBQ|Пица .., Стара Загора</a></li>
+                        <li><a href="#">Mamin Kolio Tavern|Механа.., София</a></li>
+                        <li><a href="#">Скара на Корем, София</a></li>
+                    </ul>
+                </div>
+
+                <div class="accordion"> <button>Parners</button> <i class="fas fa-angle-down"></i></div>
+                <div class="panel">
+                    <ul>
+                        <li><a href="#">Chains</a></li>
+                        <li><a href="#">Takeaway Pay (B2B)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Recommend a restaurant</a></li>
+                <li><a href="#">Sign up a restaurant </a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Privacy statement</a></li>
+                <li><a href="#">Colophon </a></li>
+                <li><a href="#">Cookie statement</a></li>
+                <li><a href="#">Bug Bounty </a></li>
+                <li><a href="#">Ethics hotline</a></li>
+            </ul>
+            <p id="footer-stamp">© 2021 Takeaway.com</p>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+
+
+        <div class="modal-content">
+
+            <!-- MODAL TOP -->
+            <div class="modal-top">
+                <div class="modal-text-img">
+                    <div class="modal-img"><i class="fas fa-smile"></i></div>
+                    <div class="modal-text">
+                        <h3>My account</h3>
+                        <span><a href="#">View personal data</a></span>
+
+                    </div>
+                </div>
+                <span class="close"><i class="fas fa-times"></i></span>
+            </div>
+            <div class="modal-top-triangle"></div>
+
+
+            <!-- MODAL BOTTOM -->
+            <div class="modal-bottom">
+                <div class="modal-bottom-buttons ">
+                    <a href="#" class="btn-grey">Login</a>
+                    <a href="#" class="btn-blue">Create account</a>
+                </div>
+                <div class="bottom-tab">
+                    <div class="bottom-row">
+                        <i class="fas fa-shopping-bag"></i>
+                        <p>Orders</p>
+                    </div>
+                    <div class="bottom-row">
+                        <i class="fas fa-heart"></i>
+                        <p>Favourites</p>
+                    </div>
+                </div>
+                <div class="bottom-tab">
+                    <div class="bottom-row">
+                        <i class="fas fa-percent"></i>
+                        <p>StampCard</p>
+                    </div>
+                    <div class="bottom-row">
+                        <i class="fas fa-info"></i>
+                        <p>Need help?</p>
+                    </div>
+                    <div class="bottom-row">
+                        <i class="fas fa-briefcase"></i>
+                        <p>Pay (For Buisness)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="country-modal" class="country-modal">
+        <!-- Modal content -->
+
+
+        <div class="modal-countries-wrap">
+
+            <!-- MODAL COUNTRIES -->
+            <div class="modal-countries">
+                <h3>Country</h3>
+                <div class="countries">
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/bulgaria.png" alt="bulgaria flag">
+                        </div>
+                        <h4 class="country-choosen">Bulgaria</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/2560px-Flag_of_Luxembourg.svg.png" alt="luxembourg flag">
+                        </div>
+                        <h4>Luxembourg</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/Flag-Australia.jpg" alt="aus flag">
+                        </div>
+                        <h4>Australia</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/320px-Flag_of_New_Zealand.svg.webp" alt="new zealand flag">
+                        </div>
+                        <h4>New Zealand</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/1024px-Flag_of_Austria.svg.png" alt="austria flag">
+                        </div>
+                        <h4>Austria</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/norw.jpg" alt="norway flag">
+                        </div>
+                        <h4>Norway</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/Flag_of_Belgium_(civil).svg.png" alt="belgium flag">
+                        </div>
+                        <h4>Belgium</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/pl.png" alt="poland flag">
+                        </div>
+                        <h4>Poland</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/canada.png" alt="canada flag">
+                        </div>
+                        <h4>Canada</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/Flag_of_Portugal.svg.png" alt="portugal flag">
+                        </div>
+                        <h4>Portugal</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/Flag_of_Denmark.svg.png" alt="denmark flag">
+                        </div>
+                        <h4>Denmark</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/1280px-Flag_of_Romania.svg.webp" alt="romania flag">
+                        </div>
+                        <h4>Romania</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/250px-Flag_of_France.svg.webp" alt="france flag">
+                        </div>
+                        <h4>France</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/1200px-Flag_of_Spain.svg.webp" alt="spain flag">
+                        </div>
+                        <h4>Spain</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/1200px-Flag_of_Germany.svg.webp" alt="germany flag">
+                        </div>
+                        <h4>Germany</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/512px-Flag_of_Switzerland.svg.png" alt="switzerland flag">
+                        </div>
+                        <h4>Switzerland</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/2560px-Flag_of_Ireland.svg.png" alt="ireland flag">
+                        </div>
+                        <h4>Ireland</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/1280px-Flag_of_the_Netherlands.svg.webp" alt="netherlands flag">
+                        </div>
+                        <h4>The Netherlands</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/640px-Flag_of_Israel.svg.png" alt="israel flag">
+                        </div>
+                        <h4>Israel</h4>
+                    </div>
+                    <div class="contry-wrapper">
+                        <div class="country-img-wrap">
+                            <img src="assets/images/country_flags/1200px-Flag_of_the_United_Kingdom.svg.webp" alt="uk flag">
+                        </div>
+                        <h4>United Kingdom</h4>
+                    </div>
+                </div>
+                <div class="languages">
+                    <h3>Language</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="lang-choosen">English</a>
+                        </li>
+                        <li>
+                            <a href="#">Български</a>
+                        </li>
+                        <li>
+                            <a href="#">Română</a>
+                        </li>
+                        <li>
+                            <a href="#">Netherlands</a>
+                        </li>
+                        <li>
+                            <a href="#">Deusch</a>
+                        </li>
+                        <li>
+                            <a href="#">Français</a>
+                        </li>
+                        <li>
+                            <a href="#">Português</a>
+                        </li>
+                        <li>
+                            <a href="#">Polski</a>
+                        </li>
+                        <li>
+                            <a href="#">Italiano</a>
+                        </li>
+                        <li>
+                            <a href="#">Dansk</a>
+                        </li>
+                        <li>
+                            <a href="#">Norsk</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
